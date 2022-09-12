@@ -349,6 +349,7 @@ template {
 }
 
 html {
+  /* coment */
   height: 100%;
   scroll-behavior: smooth;
 }
