@@ -443,6 +443,25 @@ body {
   list-style: none;
 }
 
+.navbar__button {
+  font-family: "Public Sans";
+  padding-top: 16px;
+  padding-right: 36px;
+  padding-bottom: 14px;
+  padding-left: 38px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: -0.115385px;
+  color: #fbfcfe;
+  background-color: #ba4270;
+  -webkit-box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.2509803922);
+          box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.2509803922);
+  border-radius: 24px;
+}
+
 .navbar__list::before {
   position: absolute;
   left: calc(50% - 130px);
@@ -618,6 +637,17 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+  .navbar__button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
   }
   .navbar__item {
     margin-bottom: 0;
