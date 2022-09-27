@@ -653,9 +653,6 @@ body {
     margin-bottom: 0;
     margin-right: 40px;
   }
-  .navbar__item:last-child {
-    margin-right: 0;
-  }
   .navbar__link {
     font-family: "Public Sans";
     font-style: normal;
